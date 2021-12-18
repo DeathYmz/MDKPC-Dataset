@@ -2,10 +2,13 @@
 多模态教育数据集 包含两个数据集分别是MDKPC和MMTD
 
 MDKPC dataset：
+
 The dataset contains multi-modal documents data, which comes from Wikipedia. 
-textual and graphical data of Knowledge Area（TGKD） dataset 为原始数据集
-TGKD_train_val.npz 是处理好的数据集
-cleandata 为筛选后的图片
+
+-->textual and graphical data of Knowledge Area（TGKD） dataset 为原始数据集
+-->TGKD_train_val.npz 是处理好的数据集
+-->cleandata 为筛选后的图片
+-->pre_dealdata 为处理原始数据集的程序
 
 1. 运行data 文件夹中的pre_dealdata
 	读取 imagedata中相对应的 excel 文件，根据条件筛选出有效的数据，图片存入cleanimage中 并写入txt中 txt后三个字符串为 图片对应的三个标签 以" Label:“分割开
